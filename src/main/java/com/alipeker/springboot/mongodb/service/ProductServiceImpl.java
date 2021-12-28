@@ -1,9 +1,10 @@
 package com.alipeker.springboot.mongodb.service;
 
-import com.alipeker.springboot.mongodb.service.entityservice.ProductEntityService;
 import com.alipeker.springboot.mongodb.converter.ProductConverter;
 import com.alipeker.springboot.mongodb.dto.ProductDetailDto;
 import com.alipeker.springboot.mongodb.entity.Product;
+import com.alipeker.springboot.mongodb.service.ProductService;
+import com.alipeker.springboot.mongodb.service.entityservice.ProductEntityService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
